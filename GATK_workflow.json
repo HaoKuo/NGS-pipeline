@@ -1,0 +1,22 @@
+{
+  "GATK_test.ref_index": "/work-a/public/gatk_bundle/2.8/hg19/ucsc.hg19.fasta.fai",
+  "GATK_test.ref_bwt": "/work-a/public/gatk_bundle/2.8/hg19/ucsc.hg19.fasta.bwt",
+  "GATK_test.ref_fasta": "/work-a/public/gatk_bundle/2.8/hg19/ucsc.hg19.fasta",
+  "GATK_test.PICARD": "/work-z/user/guoh/soft/picard/build/libs/picard.jar",
+  "GATK_test.fastq_directory_path": "/work-z/user/guoh/testData/WES/giab_NA12878_Garvan",
+  "GATK_test.ref_pac": "/work-a/public/gatk_bundle/2.8/hg19/ucsc.hg19.fasta.pac",
+  "GATK_test.ref_sa": "/work-a/public/gatk_bundle/2.8/hg19/ucsc.hg19.fasta.sa",
+  "GATK_test.ref_ann": "/work-a/public/gatk_bundle/2.8/hg19/ucsc.hg19.fasta.ann",
+  "GATK_test.ref_amb": "/work-a/public/gatk_bundle/2.8/hg19/ucsc.hg19.fasta.amb",
+  "GATK_test.SAMTOOLS131": "/work-z/user/guoh/soft/samtools-1.3.1/samtools",
+  "GATK_test.sampleMetainfo": "/work-z/user/guoh/research/2016-10-12-Shanghai9thHospital-Tongue_cancer/data/sample.metainfo.tsv"
+  "GATK_test.BWA0712": "/work-z/user/guoh/soft/bwa-0.7.12/bwa",
+  "GATK_test.ref_dict": "/work-a/public/gatk_bundle/2.8/hg19/ucsc.hg19.dict",
+  "GATK_test.gold_indels_index": "/work-a/public/gatk_bundle/2.8/hg19/Mills_and_1000G_gold_standard.indels.hg19.sites.vcf.idx",
+  "GATK_test.GATK36": "/work-z/user/guoh/soft/GenomeAnalysisTK.jar",
+  "GATK_test.gold_indels": "/work-a/public/gatk_bundle/2.8/hg19/Mills_and_1000G_gold_standard.indels.hg19.sites.vcf",
+  "GATK_test.dbSNP_vcf": "/work-a/public/gatk_bundle/2.8/hg19/dbsnp_138.hg19.vcf",
+  "GATK_test.dbSNP_vcf_index": "/work-a/public/gatk_bundle/2.8/hg19/dbsnp_138.hg19.vcf.idx",
+  "GATK_test.THREAD_NUM": "18",
+  "GATK_test.FinalBams":  [["S1_I1","/work-z/user/guoh/research/2016-10-12-Shanghai9thHospital-Tongue_cancer/cromwell-executions/mpileup_varscan/3ee0b024-4f8a-4bdc-8c36-62f006478ef6/call-secondSortBam/shard-0/execution/S1_I1.sorted.bam"],["S1_I2","/work/user/guoh/research/2016-10-12-Shanghai9thHospital-Tongue_cancer/cromwell-executions/mpileup_varscan/3ee0b024-4f8a-4bdc-8c36-62f006478ef6/call-secondSortBam/shard-1/execution/S1_I2.sorted.bam"],["S1_I3","/work/user/guoh/research/2016-10-12-Shanghai9thHospital-Tongue_cancer/cromwell-executions/mpileup_varscan/3ee0b024-4f8a-4bdc-8c36-62f006478ef6/call-secondSortBam/shard-2/execution/S1_I3.sorted.bam"],["S1_I4","/work/user/guoh/research/2016-10-12-Shanghai9thHospital-Tongue_cancer/cromwell-executions/mpileup_varscan/3ee0b024-4f8a-4bdc-8c36-62f006478ef6/call-secondSortBam/shard-3/execution/S1_I4.sorted.bam"],["S1_I5","/work/user/guoh/research/2016-10-12-Shanghai9thHospital-Tongue_cancer/cromwell-executions/mpileup_varscan/3ee0b024-4f8a-4bdc-8c36-62f006478ef6/call-secondSortBam/shard-4/execution/S1_I5.sorted.bam"],["S1_I6","/work/user/guoh/research/2016-10-12-Shanghai9thHospital-Tongue_cancer/cromwell-executions/mpileup_varscan/3ee0b024-4f8a-4bdc-8c36-62f006478ef6/call-secondSortBam/shard-5/execution/S1_I6.sorted.bam"]]
+}
