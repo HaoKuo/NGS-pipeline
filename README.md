@@ -1,18 +1,20 @@
+# Cromewell + WDL pipeline working notes 
 
+    Taking some working notes and tips for Cromwell engine and WDL scripts.
 
-# set a destination directory for all job outputs
+## set a destination directory for all job outputs
 java -Dbackend.providers.Local.config.root=/set/new/destination/directory -jar cromwell.jar run ...
 
-# set config file path for the Cromwell engine
+## set config file path for the Cromwell engine
 java -Dconfig.file=/path/to/application.conf -jar cromwell.jar run ...
 
-# set concurrent job numbers for each workflow
+## set concurrent job numbers for each workflow
 java -Dconcurrent-job-limit=5 -jar cromwell.jar run ...
 
-# enable result caching in database
+## enable result caching in database
 java -Dcall-caching.enabled=true -Dlookup-docker-hash=false -jar cromwell.jar run ...
 
-# one can specify a options.json file to set the config terms of the Cromwell engine
+## one can specify a options.json file to set the config terms of the Cromwell engine
 java -jar cromwell.jar run wf.wdl wf_inputs.json wf_options.json
 
 e.g.: options.json
@@ -21,8 +23,8 @@ e.g.: options.json
     "jes_gcs_root": "gs://my-bucket/workflows"
 }
 
-# Valid keys and their meanings:
-## Global (use with any backend)
+## Valid keys and their meanings:
+### Global (use with any backend)
 1. write_to_cache - Accepts values true or false. If false, the completed calls from this workflow will not be added to the cache. See the Call Caching section for more details.
 2. read_from_cache - Accepts values true or false. If false, Cromwell will not search the cache when invoking a call (i.e. every call will be executed unconditionally). See the Call Caching section for more details.
 3. final_workflow_log_dir - Specifies a path where per-workflow logs will be written. If this is not specified, per-workflow logs will not be copied out of the Cromwell workflow log temporary directory/path before they are deleted.
